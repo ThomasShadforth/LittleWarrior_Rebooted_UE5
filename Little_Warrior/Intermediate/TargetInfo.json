@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Little_Warrior",
+			"Path": "D:\\Unreal Projects\\Github\\LittleWarrior_Rebooted_UE5\\Little_Warrior\\Source\\Little_Warrior.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "Little_WarriorEditor",
+			"Path": "D:\\Unreal Projects\\Github\\LittleWarrior_Rebooted_UE5\\Little_Warrior\\Source\\Little_WarriorEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

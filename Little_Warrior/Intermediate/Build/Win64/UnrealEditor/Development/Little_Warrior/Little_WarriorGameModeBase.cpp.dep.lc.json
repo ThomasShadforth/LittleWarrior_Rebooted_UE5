@@ -1,0 +1,19 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "d:\\unreal projects\\github\\littlewarrior_rebooted_ue5\\little_warrior\\source\\little_warrior\\little_warriorgamemodebase.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\unreal projects\\github\\littlewarrior_rebooted_ue5\\little_warrior\\intermediate\\build\\win64\\little_warrioreditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "d:\\unreal projects\\github\\littlewarrior_rebooted_ue5\\little_warrior\\intermediate\\build\\win64\\unrealeditor\\development\\little_warrior\\definitions.little_warrior.h",
+            "d:\\unreal projects\\github\\littlewarrior_rebooted_ue5\\little_warrior\\source\\little_warrior\\little_warriorgamemodebase.h",
+            "d:\\program files (x86)\\ue5\\ue_5.1\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "d:\\program files (x86)\\ue5\\ue_5.1\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "d:\\program files (x86)\\ue5\\ue_5.1\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
+            "d:\\program files (x86)\\ue5\\ue_5.1\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
+            "d:\\unreal projects\\github\\littlewarrior_rebooted_ue5\\little_warrior\\intermediate\\build\\win64\\unrealeditor\\inc\\little_warrior\\uht\\little_warriorgamemodebase.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

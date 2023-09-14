@@ -1,0 +1,27 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "d:\\unreal projects\\github\\littlewarrior_rebooted_ue5\\little_warrior\\intermediate\\build\\win64\\unrealeditor\\inc\\little_warrior\\uht\\littlewarriorcharacter.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\unreal projects\\github\\littlewarrior_rebooted_ue5\\little_warrior\\intermediate\\build\\win64\\little_warrioreditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "d:\\unreal projects\\github\\littlewarrior_rebooted_ue5\\little_warrior\\intermediate\\build\\win64\\unrealeditor\\development\\little_warrior\\definitions.little_warrior.h",
+            "d:\\unreal projects\\github\\littlewarrior_rebooted_ue5\\little_warrior\\source\\little_warrior\\littlewarriorcharacter.h",
+            "d:\\program files (x86)\\ue5\\ue_5.1\\engine\\plugins\\marketplace\\paperzd\\source\\paperzd\\public\\paperzdcharacter.h",
+            "d:\\program files (x86)\\ue5\\ue_5.1\\engine\\plugins\\2d\\paper2d\\source\\paper2d\\classes\\papercharacter.h",
+            "d:\\program files (x86)\\ue5\\ue_5.1\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
+            "d:\\program files (x86)\\ue5\\ue_5.1\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementreplication.h",
+            "d:\\program files (x86)\\ue5\\ue_5.1\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\charactermovementreplication.generated.h",
+            "d:\\program files (x86)\\ue5\\ue_5.1\\engine\\source\\runtime\\engine\\classes\\gameframework\\rootmotionsource.h",
+            "d:\\program files (x86)\\ue5\\ue_5.1\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\rootmotionsource.generated.h",
+            "d:\\program files (x86)\\ue5\\ue_5.1\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\character.generated.h",
+            "d:\\program files (x86)\\ue5\\ue_5.1\\engine\\plugins\\2d\\paper2d\\intermediate\\build\\win64\\unrealeditor\\inc\\paper2d\\uht\\papercharacter.generated.h",
+            "d:\\program files (x86)\\ue5\\ue_5.1\\engine\\plugins\\marketplace\\paperzd\\source\\paperzd\\public\\sequencer\\ipaperzdsequencersource.h",
+            "d:\\program files (x86)\\ue5\\ue_5.1\\engine\\plugins\\marketplace\\paperzd\\intermediate\\build\\win64\\unrealeditor\\inc\\paperzd\\uht\\ipaperzdsequencersource.generated.h",
+            "d:\\program files (x86)\\ue5\\ue_5.1\\engine\\plugins\\marketplace\\paperzd\\intermediate\\build\\win64\\unrealeditor\\inc\\paperzd\\uht\\paperzdcharacter.generated.h",
+            "d:\\unreal projects\\github\\littlewarrior_rebooted_ue5\\little_warrior\\intermediate\\build\\win64\\unrealeditor\\inc\\little_warrior\\uht\\littlewarriorcharacter.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

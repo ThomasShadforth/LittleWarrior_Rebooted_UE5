@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\Unreal Projects\\Github\\LittleWarrior_Rebooted_UE5\\Little_Warrior\\Source\\Little_Warrior\\Little_Warrior.Build.cs",
+		"D:\\Unreal Projects\\Github\\LittleWarrior_Rebooted_UE5\\Little_Warrior\\Source\\Little_Warrior.Target.cs",
+		"D:\\Unreal Projects\\Github\\LittleWarrior_Rebooted_UE5\\Little_Warrior\\Source\\Little_WarriorEditor.Target.cs"
+	],
+	"EngineVersion": "5.1.1"
+}

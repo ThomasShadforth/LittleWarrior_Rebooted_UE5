@@ -1,0 +1,13 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "d:\\unreal projects\\github\\littlewarrior_rebooted_ue5\\little_warrior\\intermediate\\build\\win64\\unrealeditor\\inc\\little_warrior\\uht\\little_warrior.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\unreal projects\\github\\littlewarrior_rebooted_ue5\\little_warrior\\intermediate\\build\\win64\\little_warrioreditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "d:\\unreal projects\\github\\littlewarrior_rebooted_ue5\\little_warrior\\intermediate\\build\\win64\\unrealeditor\\development\\little_warrior\\definitions.little_warrior.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
