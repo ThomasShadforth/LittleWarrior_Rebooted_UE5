@@ -1,5 +1,26 @@
 ﻿  Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" Little_WarriorEditor Win64 Development -Project="D:\Unreal Projects\Github\LittleWarrior_Rebooted_UE5\Little_Warrior\Little_Warrior.uproject" -WaitMutex -FromMsBuild
   Log file: C:\Users\12sha\AppData\Local\UnrealBuildTool\Log.txt
   Using 'git status' to determine working set for adaptive non-unity build (D:\Unreal Projects\Github\LittleWarrior_Rebooted_UE5).
-  Target is up to date
-  Total execution time: 0.84 seconds
+  Waiting for 'git status' command to complete
+  Invalidating makefile for Little_WarriorEditor (working set of source files changed)
+  Parsing headers for Little_WarriorEditor
+    Running Internal UnrealHeaderTool "D:\Unreal Projects\Github\LittleWarrior_Rebooted_UE5\Little_Warrior\Little_Warrior.uproject" "D:\Unreal Projects\Github\LittleWarrior_Rebooted_UE5\Little_Warrior\Intermediate\Build\Win64\Little_WarriorEditor\Development\Little_WarriorEditor.uhtmanifest" -WarningsAsErrors -installed
+  Total of 2 written
+  Reflection code generated for Little_WarriorEditor in 0.9320684 seconds
+  Building Little_WarriorEditor...
+  Using Visual Studio 2019 14.29.30143 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  [Adaptive Build] Excluded from Little_Warrior unity file: PlayerCombatComponent.cpp
+  Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+    Requested 2 process count multiplier: limiting max parallel actions to 16
+    Requested 1.5 GB free memory per action, 8.14 GB available: limiting max parallel actions to 5
+  Building 6 actions with 5 processes...
+  [1/6] Compile Little_Warrior.init.gen.cpp
+  [2/6] Compile PlayerCombatComponent.cpp
+  [3/6] Compile PlayerCombatComponent.gen.cpp
+  [4/6] Link UnrealEditor-Little_Warrior.lib
+     Creating library D:\Unreal Projects\Github\LittleWarrior_Rebooted_UE5\Little_Warrior\Intermediate\Build\Win64\UnrealEditor\Development\Little_Warrior\UnrealEditor-Little_Warrior.lib and object D:\Unreal Projects\Github\LittleWarrior_Rebooted_UE5\Little_Warrior\Intermediate\Build\Win64\UnrealEditor\Development\Little_Warrior\UnrealEditor-Little_Warrior.exp
+  [5/6] Link UnrealEditor-Little_Warrior.dll
+     Creating library D:\Unreal Projects\Github\LittleWarrior_Rebooted_UE5\Little_Warrior\Intermediate\Build\Win64\UnrealEditor\Development\Little_Warrior\UnrealEditor-Little_Warrior.suppressed.lib and object D:\Unreal Projects\Github\LittleWarrior_Rebooted_UE5\Little_Warrior\Intermediate\Build\Win64\UnrealEditor\Development\Little_Warrior\UnrealEditor-Little_Warrior.suppressed.exp
+  [6/6] WriteMetadata Little_WarriorEditor.target
+  Total time in Parallel executor: 33.80 seconds
+  Total execution time: 37.55 seconds

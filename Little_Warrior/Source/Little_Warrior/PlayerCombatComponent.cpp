@@ -23,6 +23,45 @@ void UPlayerCombatComponent::BeginPlay()
 	
 }
 
+void UPlayerCombatComponent::ProcessPlayerLightAttack()
+{
+	if (_attackDataTable) {
+		//If the player is currently attacking, check for the next light attack in the sequence (If it exists)
+		if (_currentAttackData) {
+			GetNextAttack(_currentAttackData->_nextLightAttack);
+		}
+		//Otherwise, start off with the firt jab
+		else {
+			GetNextAttack("Jab1");
+		}
+	}
+}
+
+void UPlayerCombatComponent::ProcessPlayerHeavyAttack()
+{
+	if (_attackDataTable) {
+
+	}
+}
+
+void UPlayerCombatComponent::ResetCurrentAttack()
+{
+	_currentAttackData = nullptr;
+}
+
+void UPlayerCombatComponent::GetNextAttack(FName AttackName)
+{
+	FAttackDataTable* attackDataRow;
+	attackDataRow = _attackDataTable->FindRow<FAttackDataTable>(AttackName, TEXT(""));
+
+	if (attackDataRow) {
+		PlayCharacterAttackAnim(attackDataRow->_attackName);
+		_currentAttackData = attackDataRow;
+	}
+}
+
+
+
 
 // Called every frame
 void UPlayerCombatComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
