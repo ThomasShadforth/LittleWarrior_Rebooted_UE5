@@ -1,12 +1,19 @@
 "D:\Unreal Projects\Github\LittleWarrior_Rebooted_UE5\Little_Warrior\Source\Little_Warrior\Little_Warrior.cpp"
 /I .
-/I "D:\Unreal Projects\Github\LittleWarrior_Rebooted_UE5\Little_Warrior\Intermediate\Build\Win64\UnrealEditor\Inc\Little_Warrior\UHT"
-/I "D:\Unreal Projects\Github\LittleWarrior_Rebooted_UE5\Little_Warrior\Source"
+/I ..\Plugins\Marketplace\PaperZD\Intermediate\Build\Win64\UnrealEditor\Inc\PaperZD\UHT
+/I ..\Plugins\Marketplace\PaperZD\Source
+/I ..\Plugins\Marketplace\PaperZD\Source\PaperZD\Public
+/I ..\Plugins\Marketplace\PaperZD\Source\PaperZD\Public\AnimNodes
+/I ..\Plugins\Marketplace\PaperZD\Source\PaperZD\Public\Notifies
 /I Runtime
 /I Runtime\TraceLog\Public
 /I Runtime\Core\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\CoreUObject\UHT
 /I Runtime\CoreUObject\Public
+/I ..\Plugins\2D\Paper2D\Intermediate\Build\Win64\UnrealEditor\Inc\Paper2D\UHT
+/I ..\Plugins\2D\Paper2D\Source
+/I ..\Plugins\2D\Paper2D\Source\Paper2D\Classes
+/I ..\Plugins\2D\Paper2D\Source\Paper2D\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\Engine\UHT
 /I ..\Shaders\Shared
 /I Runtime\Engine\Classes
@@ -271,6 +278,8 @@
 /I Runtime\MovieSceneCapture\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\AnimationDataController\UHT
 /I Developer\AnimationDataController\Public
+/I "D:\Unreal Projects\Github\LittleWarrior_Rebooted_UE5\Little_Warrior\Intermediate\Build\Win64\UnrealEditor\Inc\Little_Warrior\UHT"
+/I "D:\Unreal Projects\Github\LittleWarrior_Rebooted_UE5\Little_Warrior\Source"
 /I ThirdParty\mimalloc\include
 /I ThirdParty\LibTiff\Source\Win64
 /I ThirdParty\LibTiff\Source
