@@ -1,0 +1,25 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "d:\\unreal projects\\github\\littlewarrior_rebooted_ue5\\little_warrior\\source\\little_warrior\\playerskilltreecomponent.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\unreal projects\\github\\littlewarrior_rebooted_ue5\\little_warrior\\intermediate\\build\\win64\\little_warrioreditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "d:\\unreal projects\\github\\littlewarrior_rebooted_ue5\\little_warrior\\intermediate\\build\\win64\\unrealeditor\\development\\little_warrior\\definitions.little_warrior.h",
+            "d:\\unreal projects\\github\\littlewarrior_rebooted_ue5\\little_warrior\\source\\little_warrior\\playerskilltreecomponent.h",
+            "d:\\unreal projects\\github\\littlewarrior_rebooted_ue5\\little_warrior\\source\\little_warrior\\s_treecategory.h",
+            "d:\\unreal projects\\github\\littlewarrior_rebooted_ue5\\little_warrior\\source\\little_warrior\\s_subtreecontent.h",
+            "d:\\unreal projects\\github\\littlewarrior_rebooted_ue5\\little_warrior\\source\\little_warrior\\s_subtreeskill.h",
+            "d:\\unreal projects\\github\\littlewarrior_rebooted_ue5\\little_warrior\\intermediate\\build\\win64\\unrealeditor\\inc\\little_warrior\\uht\\s_subtreeskill.generated.h",
+            "d:\\unreal projects\\github\\littlewarrior_rebooted_ue5\\little_warrior\\source\\little_warrior\\s_subtreeconnection.h",
+            "d:\\program files (x86)\\ue5\\ue_5.1\\engine\\source\\runtime\\umg\\public\\slate\\widgettransform.h",
+            "d:\\program files (x86)\\ue5\\ue_5.1\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\umg\\uht\\widgettransform.generated.h",
+            "d:\\unreal projects\\github\\littlewarrior_rebooted_ue5\\little_warrior\\intermediate\\build\\win64\\unrealeditor\\inc\\little_warrior\\uht\\s_subtreeconnection.generated.h",
+            "d:\\unreal projects\\github\\littlewarrior_rebooted_ue5\\little_warrior\\intermediate\\build\\win64\\unrealeditor\\inc\\little_warrior\\uht\\s_subtreecontent.generated.h",
+            "d:\\unreal projects\\github\\littlewarrior_rebooted_ue5\\little_warrior\\intermediate\\build\\win64\\unrealeditor\\inc\\little_warrior\\uht\\s_treecategory.generated.h",
+            "d:\\unreal projects\\github\\littlewarrior_rebooted_ue5\\little_warrior\\intermediate\\build\\win64\\unrealeditor\\inc\\little_warrior\\uht\\playerskilltreecomponent.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
