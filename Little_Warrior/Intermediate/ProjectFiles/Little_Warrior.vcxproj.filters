@@ -42,6 +42,12 @@
     <Filter Include="Source\Little_Warrior">
       <UniqueIdentifier>{AD684D87-BB0B-31DD-B023-698FAFD3D0C3}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\Little_Warrior\EnemyController.cpp">
+      <Filter>Source\Little_Warrior</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Little_Warrior\EnemyController.h">
+      <Filter>Source\Little_Warrior</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\Little_Warrior\HitInterface.cpp">
       <Filter>Source\Little_Warrior</Filter>
     </ClCompile>
@@ -81,40 +87,22 @@
     <ClInclude Include="..\..\Source\Little_Warrior\SkillBase.h">
       <Filter>Source\Little_Warrior</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\Little_Warrior\S_SkillInfo.cpp">
+    <ClCompile Include="..\..\Source\Little_Warrior\S_AttackData.cpp">
       <Filter>Source\Little_Warrior</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\Little_Warrior\S_SkillInfo.h">
+    <ClInclude Include="..\..\Source\Little_Warrior\S_AttackData.h">
       <Filter>Source\Little_Warrior</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\Little_Warrior\S_SkillStages.cpp">
+    <ClCompile Include="..\..\Source\Little_Warrior\S_KnockbackData.cpp">
       <Filter>Source\Little_Warrior</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\Little_Warrior\S_SkillStages.h">
+    <ClInclude Include="..\..\Source\Little_Warrior\S_KnockbackData.h">
       <Filter>Source\Little_Warrior</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\Little_Warrior\S_SubTreeConnection.cpp">
+    <ClCompile Include="..\..\Source\Little_Warrior\S_SkillArray.cpp">
       <Filter>Source\Little_Warrior</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\Little_Warrior\S_SubTreeConnection.h">
-      <Filter>Source\Little_Warrior</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\Little_Warrior\S_SubTreeContent.cpp">
-      <Filter>Source\Little_Warrior</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\Little_Warrior\S_SubTreeContent.h">
-      <Filter>Source\Little_Warrior</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\Little_Warrior\S_SubTreeSkill.cpp">
-      <Filter>Source\Little_Warrior</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\Little_Warrior\S_SubTreeSkill.h">
-      <Filter>Source\Little_Warrior</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\Little_Warrior\S_TreeCategory.cpp">
-      <Filter>Source\Little_Warrior</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\Little_Warrior\S_TreeCategory.h">
+    <ClInclude Include="..\..\Source\Little_Warrior\S_SkillArray.h">
       <Filter>Source\Little_Warrior</Filter>
     </ClInclude>
   </ItemGroup>

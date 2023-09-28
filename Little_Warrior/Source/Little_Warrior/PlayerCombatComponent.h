@@ -5,21 +5,8 @@
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
 #include "Engine/DataTable.h"
+#include "S_AttackData.h"
 #include "PlayerCombatComponent.generated.h"
-
-USTRUCT(BlueprintType)
-struct FAttackDataTable : public FTableRowBase {
-	GENERATED_BODY();
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	FName _attackName;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	FName _nextLightAttack;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	FName _nextHeavyAttack;
-};
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent), Blueprintable)
 class LITTLE_WARRIOR_API UPlayerCombatComponent : public UActorComponent
@@ -45,12 +32,15 @@ protected:
 
 	void GetNextAttack(FName AttackName);
 
+	UFUNCTION(BlueprintCallable)
+	void UnlockPlayerAttack(FName AttackName);
+
 private:
 
-	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = DataTable, meta = (AllowPrivateAccess = "true"))
-	UDataTable* _attackDataTable;
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = AttackData, meta = (AllowPrivateAccess = "true"))
+	TMap<FName, FS_AttackData> _attackDataMap;
 
-	FAttackDataTable* _currentAttackData;
+	FS_AttackData* _currentAttack;
 
 public:	
 	// Called every frame
@@ -58,5 +48,8 @@ public:
 
 	UFUNCTION(BlueprintImplementableEvent)
 	void PlayCharacterAttackAnim(FName AttackName);
+
+	UFUNCTION(BlueprintCallable)
+	FS_AttackData GetCurrentAttack() const { return *_currentAttack; }
 		
 };

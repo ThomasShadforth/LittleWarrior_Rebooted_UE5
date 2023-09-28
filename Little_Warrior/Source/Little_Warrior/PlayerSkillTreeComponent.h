@@ -4,7 +4,6 @@
 
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
-#include "S_TreeCategory.h"
 #include "PlayerSkillTreeComponent.generated.h"
 
 
@@ -25,9 +24,6 @@ private:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, meta=(AllowPrivateAccess = "true"))
 	int _skillPoints;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, meta = (AllowPrivateAccess = "true"))
-	TArray<FS_TreeCategory> _treeCategories;
 
 public:	
 	// Called every frame

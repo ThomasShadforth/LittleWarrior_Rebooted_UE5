@@ -10,6 +10,10 @@
             "d:\\program files (x86)\\ue5\\ue_5.1\\engine\\source\\runtime\\engine\\classes\\engine\\datatable.h",
             "d:\\program files (x86)\\ue5\\ue_5.1\\engine\\source\\runtime\\engine\\public\\datatableutils.h",
             "d:\\program files (x86)\\ue5\\ue_5.1\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\datatable.generated.h",
+            "d:\\unreal projects\\github\\littlewarrior_rebooted_ue5\\little_warrior\\source\\little_warrior\\s_attackdata.h",
+            "d:\\unreal projects\\github\\littlewarrior_rebooted_ue5\\little_warrior\\source\\little_warrior\\s_knockbackdata.h",
+            "d:\\unreal projects\\github\\littlewarrior_rebooted_ue5\\little_warrior\\intermediate\\build\\win64\\unrealeditor\\inc\\little_warrior\\uht\\s_knockbackdata.generated.h",
+            "d:\\unreal projects\\github\\littlewarrior_rebooted_ue5\\little_warrior\\intermediate\\build\\win64\\unrealeditor\\inc\\little_warrior\\uht\\s_attackdata.generated.h",
             "d:\\unreal projects\\github\\littlewarrior_rebooted_ue5\\little_warrior\\intermediate\\build\\win64\\unrealeditor\\inc\\little_warrior\\uht\\playercombatcomponent.generated.h"
         ],
         "ImportedModules": [],

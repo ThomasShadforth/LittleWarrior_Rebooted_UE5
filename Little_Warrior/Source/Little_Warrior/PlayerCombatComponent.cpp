@@ -25,38 +25,65 @@ void UPlayerCombatComponent::BeginPlay()
 
 void UPlayerCombatComponent::ProcessPlayerLightAttack()
 {
-	if (_attackDataTable) {
-		//If the player is currently attacking, check for the next light attack in the sequence (If it exists)
-		if (_currentAttackData) {
-			GetNextAttack(_currentAttackData->_nextLightAttack);
-		}
-		//Otherwise, start off with the firt jab
-		else {
+	if (_attackDataMap.Num() > 0) {
+		if (_currentAttack == nullptr) {
 			GetNextAttack("Jab1");
+		}
+		else {
+			GetNextAttack(_currentAttack->_nextLightAttack);
 		}
 	}
 }
 
 void UPlayerCombatComponent::ProcessPlayerHeavyAttack()
 {
-	if (_attackDataTable) {
+	if (_attackDataMap.Num() > 0) {
+		if (_currentAttack == nullptr) {
 
+		}
+		else {
+			GetNextAttack(_currentAttack->_nextHeavyAttack);
+		}
 	}
 }
 
 void UPlayerCombatComponent::ResetCurrentAttack()
 {
-	_currentAttackData = nullptr;
+	_currentAttack = nullptr;
 }
 
 void UPlayerCombatComponent::GetNextAttack(FName AttackName)
 {
-	FAttackDataTable* attackDataRow;
-	attackDataRow = _attackDataTable->FindRow<FAttackDataTable>(AttackName, TEXT(""));
+	FS_AttackData* requestedAttack = _attackDataMap.Find(AttackName);
 
-	if (attackDataRow) {
-		PlayCharacterAttackAnim(attackDataRow->_attackName);
-		_currentAttackData = attackDataRow;
+	if (requestedAttack) {
+		if (requestedAttack->bUnlocked) {
+			PlayCharacterAttackAnim(requestedAttack->_attackName);
+			_currentAttack = requestedAttack;
+		}
+	}
+}
+
+void UPlayerCombatComponent::UnlockPlayerAttack(FName AttackName)
+{
+	
+	UE_LOG(LogTemp, Warning, TEXT("CHECKING FOR ATTACK"));
+
+	FS_AttackData* requestedAttack = _attackDataMap.Find(AttackName);
+
+	if (requestedAttack) {
+
+		UE_LOG(LogTemp, Warning, TEXT("UNLOCKING ATTACK"));
+
+		if (!requestedAttack->bUnlocked) {
+			requestedAttack->bUnlocked = true;
+
+			_attackDataMap.Add(AttackName, *requestedAttack);
+
+			if (_attackDataMap.Find(AttackName)->bUnlocked) {
+				UE_LOG(LogTemp, Warning, TEXT("UNLOCKED ATTACK!"));
+			}
+		}
 	}
 }
 
